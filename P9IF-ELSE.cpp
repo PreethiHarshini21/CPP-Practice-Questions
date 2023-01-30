@@ -28,9 +28,10 @@ using namespace std;
 int main() {
 int a;
 cout<<"enter the value: ";
-cin>>a;
+cin>>a; //input a
 
-(a%2==0)? cout<< a <<" is even": cout<< a <<" is odd";
+(a%2==0)? cout<< a <<" is even": cout<< a <<" is odd"; //use of conditional statement
+  
 
 return 0;
 }
